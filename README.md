@@ -33,3 +33,5 @@ For the beer song, there were no else statements after if, I added else and that
 
 A class is not an object, but its used to contruct them.
 
+You can create a superclass which containts subclasses. The subclasses inherit all the methods of the super class.
+
