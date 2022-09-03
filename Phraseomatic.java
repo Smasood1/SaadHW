@@ -12,7 +12,7 @@ public class Phraseomatic {
         int random2 = (int) (Math.random() * twoLength);
         int random3 = (int) (Math.random() * threeLength);
 
-        String phrase = wordListOne[random1] + " " + wordListThree[random2] + " " + wordListThree[random3];
+        String phrase = wordListOne[random1] + " " + wordListTwo[random2] + " " + wordListThree[random3];
 
         System.out.println("What we need is a" + " " + phrase);
 
