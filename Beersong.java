@@ -12,9 +12,13 @@
             }
 
             System.out.println(beerNum + " " + word + " of beer on the wall");
+
             //added space in between necessary texts
+
             System.out.println(beerNum + " " + word + " of beer.");
+
             //added space in between necesssary texts
+
             System.out.println("take one down.");
             System.out.println("pass it around.");
             beerNum = beerNum -1;
@@ -42,6 +46,7 @@ public class Beersong {
     public static void main(String[] args) {
         int beerNum = 99;
         String word = "bottles";
+
         for (int num = 99; num >= 0; num--) {
             if (num > 1) {
                 System.out.println(num + " bottles of beer on the wall, " + num + " bottles of beer.");
